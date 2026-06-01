@@ -23,10 +23,10 @@ import os
 # ============================================================================
 
 # Replace with your PythonAnywhere username
-PYTHONANYWHERE_USERNAME = 'yourusername'
+PYTHONANYWHERE_USERNAME = 'JonathanMwangiMaina'
 
 # Project directory path
-PROJECT_HOME = f'/home/{PYTHONANYWHERE_USERNAME}/maliMALI-marketplace-using-flask'
+PROJECT_HOME = f'/home/JonathanMwangiMaina/maliMali-marketplace-using-flask'
 
 # ============================================================================
 # PATH CONFIGURATION
@@ -66,22 +66,22 @@ os.environ.setdefault(
 
 # MPesa Integration (REQUIRED for payment processing)
 # Get these from Safaricom Developer Portal: https://developer.safaricom.co.ke/
-os.environ.setdefault('MPESA_CONSUMER_KEY', '')
-os.environ.setdefault('MPESA_CONSUMER_SECRET', '')
-os.environ.setdefault('MPESA_API_URL', 'https://sandbox.safaricom.co.ke')  # or production URL
-os.environ.setdefault('MPESA_PARTY_A', '')  # Your shortcode
-os.environ.setdefault('MPESA_PARTY_B', '')  # Your shortcode
-os.environ.setdefault('MPESA_PHONE_NUMBER', '')
-os.environ.setdefault('MPESA_BUSINESS_SHORT_CODE', '')
-os.environ.setdefault('MPESA_PASS_KEY', '')
-os.environ.setdefault('MPESA_INITIATOR_PASSWORD', '')
-os.environ.setdefault('MPESA_INITIATOR_NAME', '')
-os.environ.setdefault('MPESA_BASIC_AUTHORIZATION', '')
-os.environ.setdefault('MPESA_GRANT_TYPE', 'client_credentials')
+os.environ.setdefault('MPESA_CONSUMER_KEY', 'MTu0PS4Ke2drQ0BeTz9c4lJAK4Mpmi3Hob24lcuGQbhFVxm1')
+os.environ.setdefault('MPESA_CONSUMER_SECRET', 'dm9QRKLZtWBY9GuzPuATtKnoiqxppKXajPDX9CUab3WGc9mWpurhVBfTi8IW3jQs')
+os.environ.setdefault('MPESA_API_URL', 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials')  # or production URL
+os.environ.setdefault('MPESA_PARTY_A', '600984')  # Your shortcode
+os.environ.setdefault('MPESA_PARTY_B', '600000')  # Your shortcode
+os.environ.setdefault('MPESA_PHONE_NUMBER', '254708374149'
+os.environ.setdefault('MPESA_BUSINESS_SHORT_CODE', '174379')
+os.environ.setdefault('MPESA_PASS_KEY', 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919')
+os.environ.setdefault('MPESA_INITIATOR_PASSWORD', 'Safaricom123!!')
+os.environ.setdefault('MPESA_INITIATOR_NAME', 'testapi')
+os.environ.setdefault('MPESA_BASIC_AUTHORIZATION', 'TVR1MFBTNEtlMmRyUTBCZVR6OWM0bEpBSzRNcG1pM0hvYjI0bGN1R1FiaEZWeG0xOmRtOVFSS0xadFdCWTlHdXpQdUFUdEtub2lxeHBwS1hhalBEWDlDVWFiM1dHYzltV3B1cmhWQmZUaThJVzNqUXM=')
+os.environ.setdefault('MPESA_GRANT_TYPE', '/oauth/v1/generate?grant_type=client_credentials')
 
 # Africa's Talking Integration (for SMS/Airtime)
 # Get credentials from: https://africastalking.com/
-os.environ.setdefault('AFRICASTALKING_API_KEY', '')
+os.environ.setdefault('AFRICASTALKING_API_KEY', 'qXq4j1cx2')
 os.environ.setdefault('AT_USERNAME', '')  # Your Africa's Talking username
 
 # Google Maps Integration
@@ -90,7 +90,7 @@ os.environ.setdefault('GOOGLE_MAPS_API_KEY', '')
 
 # IP Info Integration
 # Get token from: https://ipinfo.io/
-os.environ.setdefault('IP_INFO_ACCESS_TOKEN', '')
+os.environ.setdefault('IP_INFO_ACCESS_TOKEN', 'c2771c0603cc31')
 
 # ============================================================================
 # LOGGING CONFIGURATION (Optional but recommended)

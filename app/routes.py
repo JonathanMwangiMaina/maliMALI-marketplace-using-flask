@@ -477,7 +477,7 @@ def dashboard_customer_buy_product(id):
 @app.route('/product/<int:id>/lipa-na-mpesa')
 @login_required
 def lipa_na_mpesa(id):    
-    access_token = mpesa.MpesaAccessToken.validated_mpesa_access_token
+    access_token = mpesa.MpesaAccessToken.validated_mpesa_access_token()
     api_url = "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest"
     headers = {'Authorization': 'Bearer %s' % access_token}
     mpesa_request = {
