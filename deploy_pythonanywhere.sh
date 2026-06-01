@@ -10,13 +10,13 @@
 # USAGE:
 #   1. Upload this project to PythonAnywhere via Git or File Upload
 #   2. Open a Bash console in PythonAnywhere
-#   3. Navigate to project directory: cd ~/maliMALI-marketplace-using-flask
+#   3. Navigate to project directory: cd ~/maliMali-marketplace-using-flask
 #   4. Make script executable: chmod +x deploy_pythonanywhere.sh
 #   5. Run deployment: ./deploy_pythonanywhere.sh
 #
 # PREREQUISITES:
 #   - PythonAnywhere account (free or paid)
-#   - Project uploaded to ~/maliMALI-marketplace-using-flask
+#   - Project uploaded to ~/maliMali-marketplace-using-flask
 #   - Python 3.8+ selected in Web app configuration
 #
 ################################################################################
@@ -51,7 +51,7 @@ log_error() {
 # CONFIGURATION
 ################################################################################
 
-PROJECT_DIR="$HOME/maliMALI-marketplace-using-flask"
+PROJECT_DIR="$HOME/maliMali-marketplace-using-flask"
 UPLOAD_DIR="$HOME/uploads"
 VENV_DIR="$HOME/.virtualenvs/maliMALI-env"
 
@@ -286,7 +286,7 @@ MANUAL STEPS REQUIRED IN PYTHONANYWHERE WEB TAB:
 
 □ Step 4: Configure Static Files Mapping
   - URL: /static/
-  - Directory: /home/<username>/maliMALI-marketplace-using-flask/app/static/
+  - Directory: /home/<username>/maliMali-marketplace-using-flask/app/static/
 
 □ Step 5: Reload Web App
   - Click green "Reload" button in Web tab
