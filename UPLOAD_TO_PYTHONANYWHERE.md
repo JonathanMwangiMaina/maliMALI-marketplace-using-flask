@@ -73,7 +73,7 @@ This guide shows you exactly how to upload the maliMALI marketplace project to P
 **Option A1: Using Command Line (Mac/Linux)**
 ```bash
 # Navigate to the parent directory containing the project
-cd /workspace/claude-workspace/jonathanmainast29_yahoo.com/JonathanMwangiMaina/
+cd ~/.path/to/your/dir/
 
 # Create ZIP file
 zip -r maliMALI-marketplace.zip maliMALI-marketplace-using-flask/ -x "*.git*" "*.pyc" "*__pycache__*" "*.db"
